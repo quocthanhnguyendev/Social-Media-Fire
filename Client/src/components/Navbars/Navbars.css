@@ -1,0 +1,37 @@
+.Navbars {
+	display: flex;
+	justify-content: space-around;
+	gap: 1rem;
+}
+
+.navbar-item {
+	display: flex;
+	width: 3.5rem;
+	height: 3rem;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	position: relative;
+}
+
+.navbar-item:hover {
+	background: var(--buttonBg);
+	color: white;
+	cursor: pointer;
+}
+
+.navbar-item > span {
+	position: absolute;
+	padding: 4px 8px;
+	font-weight: bold;
+	color: white;
+	font-size: 10px;
+	border-radius: 5px;
+	background-color: red;
+	top: 1px;
+	right: 5px;
+}
+
+.navbar-icon {
+	font-size: 30px !important;
+}

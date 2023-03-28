@@ -1,0 +1,35 @@
+.Logo-Search {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.Logo-Item {
+	font-size: 50px !important;
+}
+
+.Search {
+	display: flex;
+	background-color: var(--inputColor);
+	border-radius: 10px;
+	padding: 5px;
+	align-items: center;
+	justify-content: center;
+}
+
+.Search > input {
+	border: none;
+	background: transparent;
+	font-size: 14px;
+}
+
+.Search > input:focus {
+	outline: none;
+}
+
+.Search-Icon {
+	cursor: pointer;
+}
+
+.Search-Item {
+	font-size: 30px !important;
+}

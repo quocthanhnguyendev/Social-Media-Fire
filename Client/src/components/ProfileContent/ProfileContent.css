@@ -1,0 +1,13 @@
+.Profile-Content {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	gap: 1rem;
+	margin: auto;
+}
+
+.Information-Posts {
+	display: grid;
+	grid-template-columns: 20rem auto;
+	gap: 1rem;
+}

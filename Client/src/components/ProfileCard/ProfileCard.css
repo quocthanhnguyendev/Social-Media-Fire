@@ -1,0 +1,83 @@
+.Profile-Card {
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+  overflow-x: clip;
+  background: var(--cardColor);
+}
+
+.Profile-Image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile-Image > img:nth-of-type(1) {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Profile-Image > img:nth-of-type(2) {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -3rem;
+  box-shadow: var(--profileShadow);
+}
+
+.Profile-Name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 10px;
+}
+
+.Profile-Name > span:nth-of-type(1) {
+  font-weight: bold;
+}
+
+.Line-Hr {
+  width: 90%;
+  align-self: center;
+  height: 150%;
+  border-left: 2px solid var(--hrColor);
+}
+
+.Profile-Follows-Posts-Following {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  justify-items: center;
+  padding-bottom: 1rem;
+}
+
+.Profile-Follows-Posts-Following > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Profile-Follows-Posts-Following > div > span:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Profile-Follows-Posts-Following > div > span:nth-of-type(2) {
+  color: var(--gray);
+}
+
+.Profile-Card > span {
+  align-self: center;
+  font-weight: bolder;
+  color: var(--orange);
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
